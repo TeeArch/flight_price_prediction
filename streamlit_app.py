@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the optimized model
-model = joblib.load('optimized_model.h5')
+model = joblib.load('odel.h5')
 
 st.title('Flight Price Prediction App')
 st.write('Enter flight details below to get the predicted price.')
